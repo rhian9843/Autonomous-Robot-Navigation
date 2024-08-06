@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000359] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.005416] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.006050] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.006592] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo', '--', '-j4', '-l4'], 'cwd': '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo', 'env': OrderedDict([('PYENV_VIRTUALENV_INIT', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rhian'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2'), ('HOME', '/home/rhian'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/rhian/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PYENV_SHELL', 'zsh'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=33a2e51e86e450ad6cb0d6b7662942df'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rhian'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'rhian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rhian/miniconda3/condabin:/home/rhian/.pyenv/plugins/pyenv-virtualenv/shims:/home/rhian/.pyenv/shims:/home/rhian/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rhian/etcd-v3.5.13/etcd-download-test'), ('SESSION_MANAGER', 'local/rhian-Inspiron-15-3511:@/tmp/.ICE-unix/1071,unix/rhian-Inspiron-15-3511:/tmp/.ICE-unix/1071'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/563e4c46_db34_4d9a_8488_2c3d99003867'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.265'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KR3UM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/rhian/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=33a2e51e86e450ad6cb0d6b7662942df'), ('PYENV_ROOT', '/home/rhian/.pyenv'), ('CONDA_EXE', '/home/rhian/miniconda3/bin/conda'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060021] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[0.074427] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target obstacle2\n'}
+[0.074677] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target obstacle1\n'}
+[0.075742] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacles\n'}
+[0.099966] (-) TimerEvent: {}
+[0.200273] (-) TimerEvent: {}
+[0.300567] (-) TimerEvent: {}
+[0.400906] (-) TimerEvent: {}
+[0.501250] (-) TimerEvent: {}
+[0.601592] (-) TimerEvent: {}
+[0.701943] (-) TimerEvent: {}
+[0.802292] (-) TimerEvent: {}
+[0.902636] (-) TimerEvent: {}
+[1.002996] (-) TimerEvent: {}
+[1.103387] (-) TimerEvent: {}
+[1.203748] (-) TimerEvent: {}
+[1.304051] (-) TimerEvent: {}
+[1.404514] (-) TimerEvent: {}
+[1.504789] (-) TimerEvent: {}
+[1.605094] (-) TimerEvent: {}
+[1.705403] (-) TimerEvent: {}
+[1.805697] (-) TimerEvent: {}
+[1.906064] (-) TimerEvent: {}
+[2.006435] (-) TimerEvent: {}
+[2.106792] (-) TimerEvent: {}
+[2.207228] (-) TimerEvent: {}
+[2.307644] (-) TimerEvent: {}
+[2.407958] (-) TimerEvent: {}
+[2.508322] (-) TimerEvent: {}
+[2.608705] (-) TimerEvent: {}
+[2.709075] (-) TimerEvent: {}
+[2.809370] (-) TimerEvent: {}
+[2.909665] (-) TimerEvent: {}
+[3.010036] (-) TimerEvent: {}
+[3.110419] (-) TimerEvent: {}
+[3.210703] (-) TimerEvent: {}
+[3.311056] (-) TimerEvent: {}
+[3.411438] (-) TimerEvent: {}
+[3.511810] (-) TimerEvent: {}
+[3.612178] (-) TimerEvent: {}
+[3.712553] (-) TimerEvent: {}
+[3.812831] (-) TimerEvent: {}
+[3.913128] (-) TimerEvent: {}
+[4.013402] (-) TimerEvent: {}
+[4.113699] (-) TimerEvent: {}
+[4.213966] (-) TimerEvent: {}
+[4.314314] (-) TimerEvent: {}
+[4.414895] (-) TimerEvent: {}
+[4.515264] (-) TimerEvent: {}
+[4.615645] (-) TimerEvent: {}
+[4.716050] (-) TimerEvent: {}
+[4.816461] (-) TimerEvent: {}
+[4.916886] (-) TimerEvent: {}
+[5.017209] (-) TimerEvent: {}
+[5.117589] (-) TimerEvent: {}
+[5.217880] (-) TimerEvent: {}
+[5.318261] (-) TimerEvent: {}
+[5.418647] (-) TimerEvent: {}
+[5.519071] (-) TimerEvent: {}
+[5.619466] (-) TimerEvent: {}
+[5.719854] (-) TimerEvent: {}
+[5.820249] (-) TimerEvent: {}
+[5.920582] (-) TimerEvent: {}
+[6.020854] (-) TimerEvent: {}
+[6.121149] (-) TimerEvent: {}
+[6.221443] (-) TimerEvent: {}
+[6.321805] (-) TimerEvent: {}
+[6.422066] (-) TimerEvent: {}
+[6.522408] (-) TimerEvent: {}
+[6.622747] (-) TimerEvent: {}
+[6.723089] (-) TimerEvent: {}
+[6.823433] (-) TimerEvent: {}
+[6.923778] (-) TimerEvent: {}
+[7.024117] (-) TimerEvent: {}
+[7.124477] (-) TimerEvent: {}
+[7.224749] (-) TimerEvent: {}
+[7.325074] (-) TimerEvent: {}
+[7.425354] (-) TimerEvent: {}
+[7.525638] (-) TimerEvent: {}
+[7.625982] (-) TimerEvent: {}
+[7.726324] (-) TimerEvent: {}
+[7.826665] (-) TimerEvent: {}
+[7.927007] (-) TimerEvent: {}
+[8.027360] (-) TimerEvent: {}
+[8.127711] (-) TimerEvent: {}
+[8.228066] (-) TimerEvent: {}
+[8.328407] (-) TimerEvent: {}
+[8.428670] (-) TimerEvent: {}
+[8.529004] (-) TimerEvent: {}
+[8.629282] (-) TimerEvent: {}
+[8.729621] (-) TimerEvent: {}
+[8.829965] (-) TimerEvent: {}
+[8.930325] (-) TimerEvent: {}
+[9.030679] (-) TimerEvent: {}
+[9.131029] (-) TimerEvent: {}
+[9.231379] (-) TimerEvent: {}
+[9.331757] (-) TimerEvent: {}
+[9.432046] (-) TimerEvent: {}
+[9.532407] (-) TimerEvent: {}
+[9.632694] (-) TimerEvent: {}
+[9.733011] (-) TimerEvent: {}
+[9.833355] (-) TimerEvent: {}
+[9.933664] (-) TimerEvent: {}
+[10.034067] (-) TimerEvent: {}
+[10.079286] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[10.134271] (-) TimerEvent: {}
+[10.234663] (-) TimerEvent: {}
+[10.335068] (-) TimerEvent: {}
+[10.435477] (-) TimerEvent: {}
+[10.535796] (-) TimerEvent: {}
+[10.636243] (-) TimerEvent: {}
+[10.736611] (-) TimerEvent: {}
+[10.744066] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[10.753008] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[10.776198] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[10.782527] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo'], 'cwd': '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo', 'env': OrderedDict([('PYENV_VIRTUALENV_INIT', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rhian'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2'), ('HOME', '/home/rhian'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/rhian/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PYENV_SHELL', 'zsh'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('SYSTEMD_EXEC_PID', '1071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=33a2e51e86e450ad6cb0d6b7662942df'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rhian'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'rhian'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rhian/miniconda3/condabin:/home/rhian/.pyenv/plugins/pyenv-virtualenv/shims:/home/rhian/.pyenv/shims:/home/rhian/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rhian/etcd-v3.5.13/etcd-download-test'), ('SESSION_MANAGER', 'local/rhian-Inspiron-15-3511:@/tmp/.ICE-unix/1071,unix/rhian-Inspiron-15-3511:/tmp/.ICE-unix/1071'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/563e4c46_db34_4d9a_8488_2c3d99003867'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.265'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KR3UM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/rhian/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=33a2e51e86e450ad6cb0d6b7662942df'), ('PYENV_ROOT', '/home/rhian/.pyenv'), ('CONDA_EXE', '/home/rhian/miniconda3/bin/conda'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.788470] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.788845] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.789216] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[10.796098] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[10.802305] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/pet_cafe.launch.py\n'}
+[10.809071] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/pet_maze.launch.py\n'}
+[10.815315] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[10.821992] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[10.828217] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[10.834566] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[10.836658] (-) TimerEvent: {}
+[10.841022] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[10.847151] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[10.853584] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[10.859971] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[10.870106] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[10.876579] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[10.883104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[10.889498] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[10.895873] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[10.902337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[10.908932] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[10.915433] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[10.921841] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[10.928143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[10.934568] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[10.936777] (-) TimerEvent: {}
+[10.941022] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[10.947406] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[10.953988] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[10.960076] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[10.968123] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[10.975426] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[10.981746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[10.987909] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[10.994311] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[11.000511] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[11.006586] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[11.012799] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[11.019313] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[11.025556] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[11.031914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[11.036894] (-) TimerEvent: {}
+[11.038051] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[11.044404] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[11.050876] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[11.057286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[11.063982] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[11.072021] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[11.078337] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[11.084666] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[11.090811] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[11.097037] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[11.103144] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[11.109236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[11.115327] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[11.121916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[11.128223] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[11.134456] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/lidar_robo.urdf\n'}
+[11.136968] (-) TimerEvent: {}
+[11.140770] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/pet_robo.urdf\n'}
+[11.147052] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[11.153851] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[11.160148] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[11.167810] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[11.174916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/pet_cafe.world\n'}
+[11.181347] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/pet_maze.world\n'}
+[11.187492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[11.193996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[11.200207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[11.206603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[11.213130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[11.220394] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[11.227281] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[11.233804] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[11.237072] (-) TimerEvent: {}
+[11.240115] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[11.246501] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[11.252732] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[11.259174] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[11.266811] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[11.274352] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[11.280809] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[11.287445] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[11.293842] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[11.300250] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[11.306687] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[11.313044] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.319328] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.325438] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[11.331528] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[11.337192] (-) TimerEvent: {}
+[11.337519] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[11.346028] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[11.383530] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[11.383979] (-) EventReactorShutdown: {}

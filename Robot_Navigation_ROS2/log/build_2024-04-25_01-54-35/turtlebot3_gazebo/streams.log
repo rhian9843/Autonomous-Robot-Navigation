@@ -1,0 +1,98 @@
+[0.008s] Invoking command in '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo -- -j4 -l4
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[0.065s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.075s] [ 87%] Built target obstacle1
+[0.075s] [ 87%] Built target obstacle2
+[0.075s] [ 87%] Built target obstacles
+[10.016s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[10.684s] [100%] Built target turtlebot3_drive
+[10.693s] Invoked command in '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo -- -j4 -l4
+[10.721s] Invoking command in '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo
+[10.726s] -- Install configuration: ""
+[10.727s] -- Execute custom install script
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/pet_cafe.launch.py
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/pet_maze.launch.py
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[10.727s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[10.728s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[10.729s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[10.730s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/lidar_robo.urdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/pet_robo.urdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[10.731s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/pet_cafe.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/pet_maze.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[10.732s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[10.733s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[10.733s] -- Symlinking: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[10.740s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[10.740s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.740s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.740s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[10.740s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[10.740s] -- Up-to-date symlink: /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[10.742s] Invoked command in '/home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rhian/Documents/Semester 6/Robotics/Mini Project/ros_ws/Robot_Navigation_ROS2/build/turtlebot3_gazebo
